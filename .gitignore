@@ -1,0 +1,70 @@
+# BACKEND DIR
+backend/dist
+backend/.DS_Store
+backend/uploads
+backend/node_modules
+backend/yarn-error.log
+
+.idea
+
+backend/coverage
+
+backend/!src/**
+
+./tsconfig.tsbuildinfo
+backend/medusa-db.sql
+backend/build
+backend/.cache
+
+backend/.yarn/*
+backend/!.yarn/patches
+backend/!.yarn/plugins
+backend/!.yarn/releases
+backend/!.yarn/sdks
+backend/!.yarn/versions
+
+
+# CLIENT DIR
+client/
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+storefront/dist
+storefront/tmp
+storefront/out-tsc
+
+# dependencies
+storefront/node_modules
+
+# IDEs and editors
+/.idea
+storefront/.project
+storefront/.classpath
+storefront/.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+storefront/npm-debug.log
+storefront/yarn-error.log
+storefront/testem.log
+storefront//typings
+
+# System Files
+.DS_Store
+storefront/Thumbs.db
+
+storefront/.nx/cache
+storefront/.nx/workspace-data
